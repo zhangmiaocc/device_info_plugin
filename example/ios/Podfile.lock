@@ -1,0 +1,30 @@
+PODS:
+  - device_info_plugin (0.0.1):
+    - Flutter
+    - SAMKeychain
+  - Flutter (1.0.0)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - device_info_plugin (from `.symlinks/plugins/device_info_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - SAMKeychain
+
+SPEC REPOS:
+  trunk:
+    - SAMKeychain
+
+EXTERNAL SOURCES:
+  device_info_plugin:
+    :path: ".symlinks/plugins/device_info_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  device_info_plugin: 501b365c314b704859f4defbeb858e1b11bcd759
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: 5492be2f047b2a1bd1a58b633c69711041857149
+
+COCOAPODS: 1.10.1
